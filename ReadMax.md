@@ -1,4 +1,3 @@
-# Max
 - # My Data Science Portfolio
 
 Welcome to my data science portfolio! Here, you'll find a showcase of my projects, skills, and experiences in the field of data science, machine learning, and AI. I am passionate about turning data into actionable insights and building intelligent systems.
