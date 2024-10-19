@@ -1,0 +1,9 @@
+-r requirements.txt
+
+# testing requirements
+#pytest>=7.2.0,<8.0.0
+
+pytest>=6.0,<8.0  # Compatibilité avec les versions 6.x et 7.x
+flake8>=3.8,<6.0  # Compatibilité avec les versions 3.x et 4.x
+isort>=5.0,<6.0   # Compatibilité avec les versions 5.x
+mypy>=0.910,<1.0  # Compatibilité avec les versions 0.910 à 0.999

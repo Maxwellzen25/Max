@@ -1,0 +1,38 @@
+name: train
+run_id: commands[0]
+env APPDATA: C:\Users\efiom\AppData\Roaming
+env COMSPEC: C:\WINDOWS\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 4
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\WINDOWS
+env TEMP: C:\Users\efiom\AppData\Local\Temp
+env TMP: C:\Users\efiom\AppData\Local\Temp
+env USERPROFILE: C:\Users\efiom
+env WINDIR: C:\WINDOWS
+env PATH: C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package\.tox\test_package\Scripts;C:\Users\efiom\anaconda3\condabin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\efiom\AppData\Local\Programs\Python\Python312;C:\hadoop-3.3.6;C:\Program Files\Java\jdk-21\bin;C:\ffmpeg\bin;C:\Users\efiom\anaconda3\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.39.33519\bin\Hostx64\x64;C:\Users\efiom\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\efiom\AppData\Local\Programs\Python\Python312\;C:\Users\efiom\AppData\Local\Programs\Python\Launcher\;C:\Users\efiom\AppData\Local\Microsoft\WindowsApps;;C:\Users\efiom\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2024.1.1\bin
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env PYTHONHASHSEED: 0
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package\.tox
+env TOX_ENV_DIR: C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package\.tox\test_package
+env VIRTUAL_ENV: C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package\.tox\test_package
+env COLUMNS: 120
+env LINES: 30
+metadata pid: 3384
+cwd: C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package
+allow: C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package\.tox\test_package\Scripts\*:train
+cmd: python regression_model/train_pipeline.py
+exit_code: 0
+
+standard error:
+C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package\.tox\test_package\Lib\site-packages\feature_engine\transformation\log.py:167: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[7.29029288 6.95939851 7.46851327 ... 7.18387072 7.35051617 7.08590146]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  X.loc[:, self.variables_] = np.log(X.loc[:, self.variables_])
+C:\Users\efiom\Desktop\Outils\Projets\MachineLearningPipeline\Section5-production-model-package\.tox\test_package\Lib\site-packages\feature_engine\transformation\log.py:167: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '[7.29029288 6.95939851 7.46851327 ... 7.55066124 7.35051617 7.51697722]' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  X.loc[:, self.variables_] = np.log(X.loc[:, self.variables_])
